@@ -245,18 +245,18 @@ bool RLCreditsPopup::init() {
                 if (isOwner) {
                     bgSprite->setColor({150, 255, 255});  // cyan(boi) for owner
                 } else if (isDeveloper) {
-                    bgSprite->setColor({63, 92, 34});  // deep blue for developer (why not green like the badge)
+                    bgSprite->setColor({70, 110, 45});  // deep blue for developer (why not green like the badge)
                 } else if (isAdmin) {
                     if (isPlat) {
                         bgSprite->setColor({245, 150, 0});  // orange for plat admin (little lighter like the image)
                     } else {
-                        bgSprite->setColor({75, 42, 96});  // red for classic admin (why red not purple like the badge)
+                        bgSprite->setColor({154, 49, 175});  // red for classic admin (why red not purple like the badge)
                     }
                 } else if (isMod) {
                     if (isLeaderboard) {
-                        bgSprite->setColor({3, 79, 88});  // green for leaderboard mod (no, blue)
+                        bgSprite->setColor({43, 198, 215});  // green for leaderboard mod (no, blue) (also where leaderboard admin?)
                     } else if (isPlat) {
-                        bgSprite->setColor({96, 75, 38});  // cyan(orange) for plat mod (plat mod and leaderboard look alike)
+                        bgSprite->setColor({230, 130, 0});  // cyan(orange) for plat mod (plat mod and leaderboard look alike)
                     } else {
                         bgSprite->setColor({90, 157, 255});  // blue for classic mod (cool but a little brighter :3)
                     }
